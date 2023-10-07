@@ -17,6 +17,10 @@ nav, footer {
     text-align: center;
 }
 
+footer {
+    padding: 0.3em 0 0.5em;
+}
+
 nav {
     display: flex;
     flex-direction: column;
