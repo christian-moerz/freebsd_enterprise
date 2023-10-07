@@ -1,0 +1,44 @@
+{{ define "main" }}
+    <h2>{{ .Title }}</h2>
+
+    {{- if .Params.is_over -}}
+    <p>The {{ .Params.name }} took place on {{ .Params.meetdate }}.</p>
+    {{- else -}}
+    <p>The {{.Title}} is scheduled for {{ .Params.meetdate }}.</p>
+    {{- end -}}
+
+    {{ .Content }}
+
+    <h3>Agenda</h3>
+
+    <ul>
+        {{ range .Params.agenda }}
+        <li>{{ . }}</li>
+        {{ end }}
+    </ul>
+
+    <h3>Minutes</h3>
+
+    {{- if .Params.is_over -}}
+    {{- if .Params.minuteslink -}}
+        <p>Minutes can be found <a href="{{ .Params.minuteslink }}">here</a>.</p>
+    {{- else -}}
+        <p>Minutes are being prepared and will be linked soon.</p>
+    {{- end -}}
+    {{- else -}}
+    <p>Minutes will be linked shortly after the meeting has taken place.</p>
+    {{- end -}}
+
+    <h3>Recording</h3>
+
+    {{- if .Params.is_over -}}
+    {{- if .Params.recordinglink -}}
+        <p>The recording of this meeting can be found <a href="{{ .Params.recordinglink }}">here</a>.</p>
+    {{- else -}}
+        <p>The recording of the meeting is being prepared and will be linked soon.</p>
+    {{- end -}}
+    {{- else -}}
+    <p>The recording of the meeting will be posted shortly after the meeting has taken
+    place.</p>
+    {{- end -}}
+{{ end }}
