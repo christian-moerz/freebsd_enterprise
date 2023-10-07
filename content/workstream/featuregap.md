@@ -10,6 +10,10 @@ draft: false
   (requires Kerberos)
 * Nvidia / GPU support: Zoran at Supermicro indicated that they have the ability
   to do tests, but they lack some Nvidia GPU drivers
+  * HPC, AI workloads: Many in these industries like FreeBSD but need more
+    native support in nvidia. security is key for these workloads - train models
+    on private data, then host on fbsd to benefit from zfs, security, etc. 
+    protecting the data models is key
 * smbfs 2 and 3 driver in kernel: The current smbfs driver is 1.0, totally
   unusable these days 
 * Kerberos: Heimdal base is old.
