@@ -46,3 +46,23 @@ nav a, footer a {
 @media only screen and (min-width: 768px) {
     nav { flex-direction: row; }    
 }
+
+body table {
+    border: 1px solid #8C8C8C;
+}
+
+body table th {
+    border-bottom: 1px solid #8C8C8C;
+}
+
+th td, tr td {
+    padding: 0.1em 0.5em;
+}
+
+body tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+body tbody tr:nth-child(even) {
+    background-color: #efefef;
+}

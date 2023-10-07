@@ -25,14 +25,15 @@ draft: false
   for FreeBSD. Too many changes living now in downstream (port). FreeBSD core
   pillars of ZFS and network capability must be in sync with Samba's features to
   have great file hosting.
+  * 09/07/2023
+    * Earlier last week, we spoke with a developer with significant experience
+      working with the Samba team. They will email the Samba team and offer to
+      help get the patches upstream.
+    * One of the things the Samba team, and other project, have asked for is
+      GitHub Actions with FreeBSD to help automate things. The FreeBSD
+      Foundation is going to connect with people at GutHub and Microsoft to try
+      to get this in place.
+    * Greg created a Wrike project with the above three tasks and will invite
+      volunteers to join.
 * eBPF: https://ebpf.io/ 
 
-
-
-## Updates
-
-## Difficulty
-
-## Dependencies
-
-## Volunteers

@@ -15,14 +15,13 @@ draft: false
   * https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=256923
   * https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=253060
   * https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=269473
+  * 09/07/2023
+    * advanced this as it seems relatively low effort and b/c Zero Trust Builds
+      and Ports Automation are not actionable by the WG right now
+    * Similar to AD/DNS, the next step here quick call – what’s open, what needs
+      to be done, and we need someone who can get patches committed.
+    * Greg to take action here to work with Joe/Ed/Others to figure out who is
+      best person to help
 * Reproducible builds: Suggested by Allan Jude
 * SBOM for FreeBSD: Suggested by Allan Jude
 
-
-## Updates
-
-## Difficulty
-
-## Dependencies
-
-## Volunteers

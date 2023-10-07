@@ -17,8 +17,8 @@ decades, through:
 
 ## What is The FreeBSD Foundation?
 
-The FreeBSD Foundation is a US based 501(c)(3) non-profit organization located
-near University of Colorado, Boulder.
+[The FreeBSD Foundation](https://www.freebsdfoundation.org/) is a US based
+501(c)(3) non-profit organization located near University of Colorado, Boulder.
 
 It supports the development, security, operations, and successful use of
 FreeBSD. Foundation staff are deeply connected with the global FreeBSD 
