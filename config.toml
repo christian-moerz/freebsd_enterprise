@@ -1,0 +1,3 @@
+baseURL = 'http://freebsd-ewg.ny-central.org/'
+languageCode = 'en-us'
+title = 'FreeBSD Enterprise Working Group'
