@@ -18,8 +18,17 @@ The main pain points mentioned in initial communications:
 
 ## Updates
 
+* 05 Oct 2023: presentation of Enterprise Work Group and BHYVE/jail work stream
+  at the weekly bhyve developers/users call
+* 04 Oct 2023: Chris Moerz onboarded as project lead
+
 ## Difficulty
 
 ## Dependencies
 
+* BHYVE development
+* 14.0 release schedule
+
 ## Volunteers
+
+* Chris Moerz (freebsd AT ny-central.org)

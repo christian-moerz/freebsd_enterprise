@@ -1,7 +1,7 @@
 {{ define "main" }}
 <h2>{{ .Title }}</h2>
 
-{{- block "description" . }}{{- end }}
+{{ .Content }}
 
 <ul>
     {{ range .Pages }}

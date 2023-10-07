@@ -1,6 +1,6 @@
 Beginning of 2023, Greg Wallace at the FreeBSD Foundation gauged interest in the
 formation of an Enterprise Working Group via posts to different 
-[https://www.linkedin.com/posts/gtewallace_enterprise-freebsd-opensource-activity-7084607866363359234-YMZx/](social media channels).
+[social media channels](https://www.linkedin.com/posts/gtewallace_enterprise-freebsd-opensource-activity-7084607866363359234-YMZx/).
 
 August 2023 he founded the Enterprise Working Group out of initial feedback and
 inputs from Enterprise users, which identified gaps and potential improvements.

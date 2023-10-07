@@ -11,6 +11,15 @@ p {
     line-height: 1.3em;
 }
 
+header img {
+    float: left;
+    width: 7em;
+    padding: 0.5em 2em 0.5em 1em;
+}
+header h1 {
+    float: left;
+}
+
 nav, footer {
     background-color: #8C8C8C;
     color: #fff;
@@ -22,6 +31,7 @@ footer {
 }
 
 nav {
+    clear: both;
     display: flex;
     flex-direction: column;
     vertical-align: middle;

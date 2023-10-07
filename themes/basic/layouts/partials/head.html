@@ -1,6 +1,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport"​ content="width=device-width, initial-scale=1">
-    <title>{{ .Site.Title }} - {{ .Title }}</title>
+    <title>{{- if .Page.IsHome -}}{{ .Site.Title }}{{- else -}}{{ .Site.Title }} - {{ .Page.Title }}{{- end -}}</title>
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}" />
 </head>
